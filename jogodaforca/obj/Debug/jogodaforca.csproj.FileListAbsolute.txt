@@ -1,0 +1,8 @@
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\bin\Debug\jogodaforca.exe.config
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\bin\Debug\jogodaforca.exe
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\bin\Debug\jogodaforca.pdb
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.csprojResolveAssemblyReference.cache
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.MainForm.resources
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.csproj.GenerateResource.Cache
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.exe
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.pdb
