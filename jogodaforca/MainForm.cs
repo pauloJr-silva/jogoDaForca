@@ -17,7 +17,7 @@ namespace jogodaforca
 		}
 		
 		/*gerar a palavra*/
-		static string palavra = "banana";
+		static string palavra = "Abacate";
 		char [] novaPalavra = new char[palavra.Length];
 		int erro = 0;
 						
