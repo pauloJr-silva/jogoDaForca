@@ -6,3 +6,4 @@ C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\ob
 C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.csproj.GenerateResource.Cache
 C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.exe
 C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.pdb
+C:\Users\Paulo_junior\Documents\SharpDevelop Projects\jogodaforca\jogodaforca\obj\Debug\jogodaforca.Inicio.resources

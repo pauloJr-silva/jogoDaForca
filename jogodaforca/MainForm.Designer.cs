@@ -42,10 +42,11 @@ namespace jogodaforca
 		private System.Windows.Forms.Button buttonW;
 		private System.Windows.Forms.Button buttonZ;
 		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Button buttonStart;
+		private System.Windows.Forms.Button btnStart;
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label lblDica;
+		private System.Windows.Forms.Button btnReiniciar;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -96,27 +97,28 @@ namespace jogodaforca
 			this.buttonW = new System.Windows.Forms.Button();
 			this.buttonZ = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
-			this.buttonStart = new System.Windows.Forms.Button();
+			this.btnStart = new System.Windows.Forms.Button();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.label2 = new System.Windows.Forms.Label();
+			this.lblDica = new System.Windows.Forms.Label();
+			this.btnReiniciar = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.groupBox1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pictureBox1.Location = new System.Drawing.Point(24, 22);
+			this.pictureBox1.Location = new System.Drawing.Point(47, 5);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(211, 312);
+			this.pictureBox1.Size = new System.Drawing.Size(169, 214);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
 			// buttonA
 			// 
 			this.buttonA.Enabled = false;
-			this.buttonA.Location = new System.Drawing.Point(6, 28);
+			this.buttonA.Location = new System.Drawing.Point(17, 11);
 			this.buttonA.Name = "buttonA";
 			this.buttonA.Size = new System.Drawing.Size(41, 36);
 			this.buttonA.TabIndex = 1;
@@ -127,7 +129,7 @@ namespace jogodaforca
 			// buttonB
 			// 
 			this.buttonB.Enabled = false;
-			this.buttonB.Location = new System.Drawing.Point(57, 28);
+			this.buttonB.Location = new System.Drawing.Point(64, 11);
 			this.buttonB.Name = "buttonB";
 			this.buttonB.Size = new System.Drawing.Size(41, 36);
 			this.buttonB.TabIndex = 2;
@@ -138,7 +140,7 @@ namespace jogodaforca
 			// buttonC
 			// 
 			this.buttonC.Enabled = false;
-			this.buttonC.Location = new System.Drawing.Point(104, 28);
+			this.buttonC.Location = new System.Drawing.Point(111, 10);
 			this.buttonC.Name = "buttonC";
 			this.buttonC.Size = new System.Drawing.Size(41, 36);
 			this.buttonC.TabIndex = 3;
@@ -149,7 +151,7 @@ namespace jogodaforca
 			// buttonD
 			// 
 			this.buttonD.Enabled = false;
-			this.buttonD.Location = new System.Drawing.Point(151, 28);
+			this.buttonD.Location = new System.Drawing.Point(163, 11);
 			this.buttonD.Name = "buttonD";
 			this.buttonD.Size = new System.Drawing.Size(41, 36);
 			this.buttonD.TabIndex = 4;
@@ -160,7 +162,7 @@ namespace jogodaforca
 			// buttonE
 			// 
 			this.buttonE.Enabled = false;
-			this.buttonE.Location = new System.Drawing.Point(198, 28);
+			this.buttonE.Location = new System.Drawing.Point(211, 11);
 			this.buttonE.Name = "buttonE";
 			this.buttonE.Size = new System.Drawing.Size(41, 36);
 			this.buttonE.TabIndex = 5;
@@ -171,7 +173,7 @@ namespace jogodaforca
 			// buttonF
 			// 
 			this.buttonF.Enabled = false;
-			this.buttonF.Location = new System.Drawing.Point(245, 28);
+			this.buttonF.Location = new System.Drawing.Point(257, 11);
 			this.buttonF.Name = "buttonF";
 			this.buttonF.Size = new System.Drawing.Size(41, 36);
 			this.buttonF.TabIndex = 6;
@@ -182,7 +184,7 @@ namespace jogodaforca
 			// buttonG
 			// 
 			this.buttonG.Enabled = false;
-			this.buttonG.Location = new System.Drawing.Point(292, 28);
+			this.buttonG.Location = new System.Drawing.Point(304, 11);
 			this.buttonG.Name = "buttonG";
 			this.buttonG.Size = new System.Drawing.Size(41, 36);
 			this.buttonG.TabIndex = 7;
@@ -193,7 +195,7 @@ namespace jogodaforca
 			// buttonH
 			// 
 			this.buttonH.Enabled = false;
-			this.buttonH.Location = new System.Drawing.Point(339, 28);
+			this.buttonH.Location = new System.Drawing.Point(351, 11);
 			this.buttonH.Name = "buttonH";
 			this.buttonH.Size = new System.Drawing.Size(41, 36);
 			this.buttonH.TabIndex = 8;
@@ -204,7 +206,7 @@ namespace jogodaforca
 			// buttonI
 			// 
 			this.buttonI.Enabled = false;
-			this.buttonI.Location = new System.Drawing.Point(386, 28);
+			this.buttonI.Location = new System.Drawing.Point(398, 11);
 			this.buttonI.Name = "buttonI";
 			this.buttonI.Size = new System.Drawing.Size(41, 36);
 			this.buttonI.TabIndex = 9;
@@ -215,7 +217,7 @@ namespace jogodaforca
 			// buttonJ
 			// 
 			this.buttonJ.Enabled = false;
-			this.buttonJ.Location = new System.Drawing.Point(433, 28);
+			this.buttonJ.Location = new System.Drawing.Point(445, 11);
 			this.buttonJ.Name = "buttonJ";
 			this.buttonJ.Size = new System.Drawing.Size(41, 36);
 			this.buttonJ.TabIndex = 10;
@@ -226,7 +228,7 @@ namespace jogodaforca
 			// buttonK
 			// 
 			this.buttonK.Enabled = false;
-			this.buttonK.Location = new System.Drawing.Point(41, 70);
+			this.buttonK.Location = new System.Drawing.Point(493, 14);
 			this.buttonK.Name = "buttonK";
 			this.buttonK.Size = new System.Drawing.Size(41, 36);
 			this.buttonK.TabIndex = 11;
@@ -237,7 +239,7 @@ namespace jogodaforca
 			// buttonL
 			// 
 			this.buttonL.Enabled = false;
-			this.buttonL.Location = new System.Drawing.Point(88, 70);
+			this.buttonL.Location = new System.Drawing.Point(540, 14);
 			this.buttonL.Name = "buttonL";
 			this.buttonL.Size = new System.Drawing.Size(41, 36);
 			this.buttonL.TabIndex = 12;
@@ -248,7 +250,7 @@ namespace jogodaforca
 			// buttonM
 			// 
 			this.buttonM.Enabled = false;
-			this.buttonM.Location = new System.Drawing.Point(135, 70);
+			this.buttonM.Location = new System.Drawing.Point(587, 14);
 			this.buttonM.Name = "buttonM";
 			this.buttonM.Size = new System.Drawing.Size(41, 36);
 			this.buttonM.TabIndex = 13;
@@ -259,7 +261,7 @@ namespace jogodaforca
 			// buttonN
 			// 
 			this.buttonN.Enabled = false;
-			this.buttonN.Location = new System.Drawing.Point(182, 70);
+			this.buttonN.Location = new System.Drawing.Point(9, 50);
 			this.buttonN.Name = "buttonN";
 			this.buttonN.Size = new System.Drawing.Size(41, 36);
 			this.buttonN.TabIndex = 14;
@@ -270,7 +272,7 @@ namespace jogodaforca
 			// buttonO
 			// 
 			this.buttonO.Enabled = false;
-			this.buttonO.Location = new System.Drawing.Point(229, 70);
+			this.buttonO.Location = new System.Drawing.Point(55, 50);
 			this.buttonO.Name = "buttonO";
 			this.buttonO.Size = new System.Drawing.Size(41, 36);
 			this.buttonO.TabIndex = 15;
@@ -281,7 +283,7 @@ namespace jogodaforca
 			// buttonP
 			// 
 			this.buttonP.Enabled = false;
-			this.buttonP.Location = new System.Drawing.Point(276, 70);
+			this.buttonP.Location = new System.Drawing.Point(101, 50);
 			this.buttonP.Name = "buttonP";
 			this.buttonP.Size = new System.Drawing.Size(41, 36);
 			this.buttonP.TabIndex = 16;
@@ -292,7 +294,7 @@ namespace jogodaforca
 			// buttonQ
 			// 
 			this.buttonQ.Enabled = false;
-			this.buttonQ.Location = new System.Drawing.Point(323, 70);
+			this.buttonQ.Location = new System.Drawing.Point(148, 50);
 			this.buttonQ.Name = "buttonQ";
 			this.buttonQ.Size = new System.Drawing.Size(41, 36);
 			this.buttonQ.TabIndex = 17;
@@ -303,7 +305,7 @@ namespace jogodaforca
 			// buttonR
 			// 
 			this.buttonR.Enabled = false;
-			this.buttonR.Location = new System.Drawing.Point(370, 70);
+			this.buttonR.Location = new System.Drawing.Point(195, 50);
 			this.buttonR.Name = "buttonR";
 			this.buttonR.Size = new System.Drawing.Size(41, 36);
 			this.buttonR.TabIndex = 18;
@@ -314,7 +316,7 @@ namespace jogodaforca
 			// buttonS
 			// 
 			this.buttonS.Enabled = false;
-			this.buttonS.Location = new System.Drawing.Point(417, 70);
+			this.buttonS.Location = new System.Drawing.Point(242, 50);
 			this.buttonS.Name = "buttonS";
 			this.buttonS.Size = new System.Drawing.Size(41, 36);
 			this.buttonS.TabIndex = 19;
@@ -325,7 +327,7 @@ namespace jogodaforca
 			// buttonT
 			// 
 			this.buttonT.Enabled = false;
-			this.buttonT.Location = new System.Drawing.Point(70, 112);
+			this.buttonT.Location = new System.Drawing.Point(290, 53);
 			this.buttonT.Name = "buttonT";
 			this.buttonT.Size = new System.Drawing.Size(41, 36);
 			this.buttonT.TabIndex = 20;
@@ -336,7 +338,7 @@ namespace jogodaforca
 			// buttonU
 			// 
 			this.buttonU.Enabled = false;
-			this.buttonU.Location = new System.Drawing.Point(117, 112);
+			this.buttonU.Location = new System.Drawing.Point(336, 53);
 			this.buttonU.Name = "buttonU";
 			this.buttonU.Size = new System.Drawing.Size(41, 36);
 			this.buttonU.TabIndex = 21;
@@ -347,7 +349,7 @@ namespace jogodaforca
 			// buttonV
 			// 
 			this.buttonV.Enabled = false;
-			this.buttonV.Location = new System.Drawing.Point(164, 112);
+			this.buttonV.Location = new System.Drawing.Point(383, 53);
 			this.buttonV.Name = "buttonV";
 			this.buttonV.Size = new System.Drawing.Size(41, 36);
 			this.buttonV.TabIndex = 22;
@@ -358,7 +360,7 @@ namespace jogodaforca
 			// buttonX
 			// 
 			this.buttonX.Enabled = false;
-			this.buttonX.Location = new System.Drawing.Point(211, 112);
+			this.buttonX.Location = new System.Drawing.Point(430, 53);
 			this.buttonX.Name = "buttonX";
 			this.buttonX.Size = new System.Drawing.Size(41, 36);
 			this.buttonX.TabIndex = 23;
@@ -369,7 +371,7 @@ namespace jogodaforca
 			// buttonY
 			// 
 			this.buttonY.Enabled = false;
-			this.buttonY.Location = new System.Drawing.Point(258, 112);
+			this.buttonY.Location = new System.Drawing.Point(477, 53);
 			this.buttonY.Name = "buttonY";
 			this.buttonY.Size = new System.Drawing.Size(41, 36);
 			this.buttonY.TabIndex = 24;
@@ -380,7 +382,7 @@ namespace jogodaforca
 			// buttonW
 			// 
 			this.buttonW.Enabled = false;
-			this.buttonW.Location = new System.Drawing.Point(305, 112);
+			this.buttonW.Location = new System.Drawing.Point(524, 53);
 			this.buttonW.Name = "buttonW";
 			this.buttonW.Size = new System.Drawing.Size(41, 36);
 			this.buttonW.TabIndex = 25;
@@ -391,7 +393,7 @@ namespace jogodaforca
 			// buttonZ
 			// 
 			this.buttonZ.Enabled = false;
-			this.buttonZ.Location = new System.Drawing.Point(352, 112);
+			this.buttonZ.Location = new System.Drawing.Point(571, 53);
 			this.buttonZ.Name = "buttonZ";
 			this.buttonZ.Size = new System.Drawing.Size(41, 36);
 			this.buttonZ.TabIndex = 26;
@@ -402,7 +404,7 @@ namespace jogodaforca
 			// button1
 			// 
 			this.button1.Enabled = false;
-			this.button1.Location = new System.Drawing.Point(399, 112);
+			this.button1.Location = new System.Drawing.Point(619, 53);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(41, 36);
 			this.button1.TabIndex = 27;
@@ -410,24 +412,16 @@ namespace jogodaforca
 			this.button1.UseVisualStyleBackColor = true;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
-			// label1
+			// btnStart
 			// 
-			this.label1.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(313, 81);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(383, 68);
-			this.label1.TabIndex = 28;
-			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// buttonStart
-			// 
-			this.buttonStart.Location = new System.Drawing.Point(652, 12);
-			this.buttonStart.Name = "buttonStart";
-			this.buttonStart.Size = new System.Drawing.Size(92, 31);
-			this.buttonStart.TabIndex = 29;
-			this.buttonStart.Text = "Start";
-			this.buttonStart.UseVisualStyleBackColor = true;
-			this.buttonStart.Click += new System.EventHandler(this.ButtonStartClick);
+			this.btnStart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+			this.btnStart.Location = new System.Drawing.Point(652, 12);
+			this.btnStart.Name = "btnStart";
+			this.btnStart.Size = new System.Drawing.Size(92, 31);
+			this.btnStart.TabIndex = 29;
+			this.btnStart.Text = "Start";
+			this.btnStart.UseVisualStyleBackColor = false;
+			this.btnStart.Click += new System.EventHandler(this.ButtonStartClick);
 			// 
 			// groupBox1
 			// 
@@ -459,32 +453,57 @@ namespace jogodaforca
 			this.groupBox1.Controls.Add(this.buttonB);
 			this.groupBox1.Controls.Add(this.buttonA);
 			this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.groupBox1.Location = new System.Drawing.Point(256, 163);
+			this.groupBox1.Location = new System.Drawing.Point(3, 219);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(488, 170);
+			this.groupBox1.Size = new System.Drawing.Size(670, 100);
 			this.groupBox1.TabIndex = 30;
 			this.groupBox1.TabStop = false;
 			// 
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(260, 21);
+			this.label2.ForeColor = System.Drawing.Color.Red;
+			this.label2.Location = new System.Drawing.Point(241, 20);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 31;
+			// 
+			// lblDica
+			// 
+			this.lblDica.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblDica.Location = new System.Drawing.Point(292, 67);
+			this.lblDica.Name = "lblDica";
+			this.lblDica.Size = new System.Drawing.Size(276, 57);
+			this.lblDica.TabIndex = 32;
+			this.lblDica.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// btnReiniciar
+			// 
+			this.btnReiniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.btnReiniciar.Enabled = false;
+			this.btnReiniciar.Location = new System.Drawing.Point(652, 49);
+			this.btnReiniciar.Name = "btnReiniciar";
+			this.btnReiniciar.Size = new System.Drawing.Size(92, 31);
+			this.btnReiniciar.TabIndex = 33;
+			this.btnReiniciar.Text = "Reiniciar";
+			this.btnReiniciar.UseVisualStyleBackColor = false;
+			this.btnReiniciar.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(749, 346);
+			this.BackColor = System.Drawing.Color.White;
+			this.ClientSize = new System.Drawing.Size(749, 331);
+			this.Controls.Add(this.btnReiniciar);
+			this.Controls.Add(this.lblDica);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.groupBox1);
-			this.Controls.Add(this.buttonStart);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.btnStart);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "MainForm";
 			this.Text = "jogodaforca";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormFormClosing);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.groupBox1.ResumeLayout(false);
 			this.ResumeLayout(false);
